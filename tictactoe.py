@@ -141,3 +141,4 @@ def Min_Val(board):
     for action in actions(board):
         v = min(v,Max_Val(result(board,action)))
     return v
+ 
